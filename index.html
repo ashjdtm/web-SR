@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      background-color: #0f0f0f;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+    h1 {
+      font-size: 3em;
+      margin: 0.5em 0;
+    }
+    p {
+      font-size: 1.2em;
+      color: #ccc;
+    }
+    .links {
+      margin-top: 20px;
+    }
+    .links a {
+      color: cyan;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .links a:hover {
+      color: white;
+    }
+    .fade-in {
+      animation: fadeIn 2s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="fade-in">Welcome to My web SR</h1>
+  <p class="fade-in" style="animation-delay: 0.5s; animation-duration: 2s;">over</p>
+  <div class="links fade-in" style="animation-delay: 1s; animation-duration: 2s;">
+    <a href="https://discord.com/invite/AX4rEB5j" target="_blank">discord</a>
+      <a href="https://ashjdtm.github.io/SRToop1/"><i class="fas fa-envelope">APP SR</i></a>
+    
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SR-Style Minimal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome CDN -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      background-color: #0a0a0a;
+      color: #ffffff;
+      font-family: 'Courier New', Courier, monospace;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      color: cyan;
+      text-shadow: 0 0 5px cyan;
+    }
+
+    .typewriter {
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 2px solid cyan;
+      width: 22ch;
+      animation: typing 3s steps(22), blink 0.75s step-end infinite;
+      font-size: 1.5em;
+      margin-bottom: 40px;
+      color: #ccc;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 22ch; }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+
+    .socials a {
+      color: cyan;
+      margin: 0 15px;
+      font-size: 1.8em;
+      transition: color 0.3s;
+    }
+
+    .socials a:hover {
+      color: white;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 15px;
+      font-size: 0.9em;
+      color: #444;
+    }
+
+    @media (max-width: 500px) {
+      h1 { font-size: 2em; }
+      .typewriter { font-size: 1.2em; }
+      .socials a { font-size: 1.5em; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1></h1>
+  <div class="typewriter">SR Top1</div>
+
+  <div class="socials">
+    
+
+  <footer>© 2025 SR</footer>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- AOS (Animate on Scroll) -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  
+  <!-- Particles.js -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #0d0d0d;
+      overflow: hidden;
+      position: relative;
+      color: white;
+    }
+
+    #particles-js {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    .glass {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(8px);
+      padding: 40px;
+      border-radius: 15px;
+      text-align: center;
+      max-width: 600px;
+      margin: 100px auto;
+      box-shadow: 0 0 20px rgba(0,255,255,0.2);
+    }
+
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 15px;
+      color: cyan;
+      text-shadow: 0 0 5px cyan;
+    }
+
+    .typewriter {
+      font-size: 1.3em;
+      color: #ccc;
+      border-right: 2px solid cyan;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typing 3s steps(30), blink 0.7s infinite step-end alternate;
+      width: 22ch;
+      margin: 0 auto 25px;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 22ch; }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+
+    .socials a {
+      color: cyan;
+      margin: 0 15px;
+      font-size: 1.8em;
+      transition: 0.3s;
+    }
+
+    .socials a:hover {
+      color: white;
+    }
+
+    .btn {
+      margin-top: 30px;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 25px;
+      background: cyan;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    @media (max-width: 600px) {
+      .glass {
+        margin: 30px 20px;
+        padding: 20px;
+      }
+
+      .typewriter {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="particles-js"></div>
+
+  <div class="glass" data-aos="fade-up">
+    <h1>SR</h1>
+    <div class="typewriter"></div>
+    <div class="socials" data-aos="fade-in" data-aos-delay="300">
+      <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-discord"></i></a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i></a>
+    </div>
+    <a class="btn" href="resume.pdf" target="_blank" data-aos="zoom-in" data-aos-delay="600">Download Resume</a>
+  </div>
+
+  <footer>© 2025 SR</footer>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- Particles.js config -->
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": { "value": 60 },
+        "color": { "value": "#00ffff" },
+        "shape": { "type": "circle" },
+        "opacity": { "value": 0.2 },
+        "size": { "value": 3 },
+        "line_linked": {
+          "enable": true,
+          "distance": 120,
+          "color": "#00ffff",
+          "opacity": 0.3,
+          "width": 1
+        },
+        "move": { "enable": true, "speed": 2 }
+      },
+      "interactivity": {
+        "events": { "onhover": { "enable": true, "mode": "repulse" } }
+      }
+    });
+  </script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Neon 3D Cube</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scene">
+    <div class="cube">
+      <div class="face front">Front</div>
+      <div class="face back">Back</div>
+      <div class="face left">Left</div>
+      <div class="face right">Right</div>
+      <div class="face top">Top</div>
+      <div class="face bottom">Bottom</div>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
